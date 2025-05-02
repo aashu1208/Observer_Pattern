@@ -11,6 +11,9 @@ public class Player : NetworkBehaviour
 
     public override void FixedUpdateNetwork()
     {
+/* 
+        if(!HasInputAuthority)
+            return; */
         if (GetInput(out NetworkInputData data))
         {
         data.direction.Normalize();
