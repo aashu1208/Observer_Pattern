@@ -103,7 +103,7 @@ public class BasicSpawner : MonoBehaviour, INetworkRunnerCallbacks
         {
             if (GUI.Button(new Rect(0,0,200,40), "Host"))
             {
-                StartGame(GameMode.Server);
+                StartGame(GameMode.Host);
             }
             if (GUI.Button(new Rect(0,40,200,40), "Join"))
             {
