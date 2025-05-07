@@ -4,8 +4,10 @@ using UnityEngine;
 public class Player : NetworkBehaviour
 {
     private NetworkCharacterController _cc;
-    public bool isBig = false;
     public GameObject cube;
+
+    private bool isBig = false;
+
     private void Awake()
     {
         _cc = GetComponent<NetworkCharacterController>();
@@ -13,35 +15,35 @@ public class Player : NetworkBehaviour
 
     public override void FixedUpdateNetwork()
     {
-/* 
-        if(!HasInputAuthority)
-            return; */
+        // ✅ Make sure only the input authority processes the logic
+        if (!HasInputAuthority)
+            return;
+
         if (GetInput(out NetworkInputData data))
         {
             data.direction.Normalize();
-            _cc.Move(5*data.direction*Runner.DeltaTime);
-        }
+            _cc.Move(5 * data.direction * Runner.DeltaTime);
 
-        if(Input.GetKeyDown(KeyCode.L))
-        {
-            ToggleScale();
+            // ✅ Only toggle once per press
+            if (data.scaleToggle)
+            {
+                ToggleScale();
+            }
         }
     }
-
 
     public void ToggleScale()
     {
         isBig = !isBig;
-        if(isBig)
-        {
-            cube.transform.localScale = Vector3.one * 2f;
-        }
 
-        else if(!isBig)
+        if (cube != null)
         {
-            cube.transform.localScale = Vector3.one;
+            cube.transform.localScale = isBig ? Vector3.one * 2f : Vector3.one;
+            Debug.Log($"[Player] Toggled Scale: {cube.transform.localScale}");
         }
-        
-        
+        else
+        {
+            Debug.LogWarning("[Player] Cube reference is missing!");
+        }
     }
 }

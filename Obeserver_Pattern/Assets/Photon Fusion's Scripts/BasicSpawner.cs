@@ -11,6 +11,8 @@ public class BasicSpawner : MonoBehaviour, INetworkRunnerCallbacks
 
     [SerializeField] private NetworkPrefabRef _playerPrefab;
     private Dictionary<PlayerRef, NetworkObject> _spawnedCharacters = new Dictionary<PlayerRef, NetworkObject>();
+    private bool scaleKeyPressed = false;
+
 
     
         
@@ -51,7 +53,12 @@ public class BasicSpawner : MonoBehaviour, INetworkRunnerCallbacks
 
         if (Input.GetKey(KeyCode.D))
             data.direction += Vector3.right;
-
+        if(Input.GetKeyDown(KeyCode.L))
+            scaleKeyPressed = true;
+/* 
+        if(scaleKeyPressed)
+            data.scaleToggle = true;
+            scaleKeyPressed = false; */
         input.Set(data);
     }
     public void OnInputMissing(NetworkRunner runner, PlayerRef player, NetworkInput input) { }
@@ -110,5 +117,10 @@ public class BasicSpawner : MonoBehaviour, INetworkRunnerCallbacks
                 StartGame(GameMode.Client);
             }
         }
+    }
+
+    public void ToggleScale()
+    {
+
     }
 }
