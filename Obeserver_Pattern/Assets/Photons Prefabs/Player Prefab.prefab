@@ -68,7 +68,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aac6a054b44a2ff428eb03289a8336aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 7224955867515478871}
+  isBigLocal: 0
+  cube: {fileID: 7482459510591438196}
 --- !u!143 &-7756585682327872703
 CharacterController:
   m_ObjectHideFlags: 0
