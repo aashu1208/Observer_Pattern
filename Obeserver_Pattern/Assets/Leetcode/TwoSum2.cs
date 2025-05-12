@@ -27,8 +27,21 @@ public class TwoSum2 : MonoBehaviour
         // Output - [0,1]
         // target - nums[0] = nums[1]
         nums = new int[]{2,11,7,15};
+        var dict = new Dictionary<int, int>();
+        int target = 9;
+        int complement;
+        for(int i = 0; i<nums.Length; i++)
+        {
 
-        for(int i = 0; i < nums.Length; i++)
+            complement = target-nums[i];
+            if(dict.ContainsKey(complement))
+            {
+
+                
+            }
+        }
+
+        /* for(int i = 0; i < nums.Length; i++)
         {
 
             for(int j = i+1; j< nums.Length; j++)
@@ -42,6 +55,6 @@ public class TwoSum2 : MonoBehaviour
 
                 }
             }
-        }
+        } */
     }
 }
