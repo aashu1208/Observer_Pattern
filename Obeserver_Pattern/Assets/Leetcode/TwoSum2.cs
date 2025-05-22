@@ -8,24 +8,13 @@ public class TwoSum2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        TwoSum_Leetcode(new int[]{2,7,11,15});
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        //TwoSum_Leetcode(new int[]{2,7,11,15});
+        Debug.Log(HasPairSum(new int[]{2,7,11,15}));
     }
 
     private void TwoSum_Leetcode(int[] nums)
     {
 
-
-        // target = 9
-        // array = [2,7,11,15]
-
-        // Output - [0,1]
-        // target - nums[0] = nums[1]
         nums = new int[]{2,11,7,15};
         var dict = new Dictionary<int, int>();
         int target = 9;
@@ -37,24 +26,35 @@ public class TwoSum2 : MonoBehaviour
             if(dict.ContainsKey(complement))
             {
 
-                
+                Debug.Log(dict[complement]+","+i);
             }
-        }
 
-        /* for(int i = 0; i < nums.Length; i++)
+            dict[nums[i]] = i;
+        }
+    }
+
+
+    private bool HasPairSum(int[] nums)
+    {
+        var dict = new Dictionary<int, int>();
+        int target = 9;
+        
+
+        for(int i = 0; i<nums.Length; i++)
         {
 
-            for(int j = i+1; j< nums.Length; j++)
+            int complement = target - nums[i];
+            if(dict.ContainsKey(complement))
             {
 
-                if(nums[i] + nums[j] == 9)
-                {
-                    Debug.Log("found the 2 numbers: "+i+" and "+j);
-
-
-
-                }
+                return true;
             }
-        } */
+
+            dict[nums[i]] = i;
+        }
+
+        
+        return false;
+
     }
 }
