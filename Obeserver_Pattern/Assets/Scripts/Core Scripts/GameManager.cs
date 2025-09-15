@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManager : MonoBehaviour, ISubject
 {
 
     private List<ISubscriber> _subscribers = new List<ISubscriber>();
@@ -32,6 +32,19 @@ public class GameManager : MonoBehaviour
         if(_subscribers.Contains(subscriber))
         {
             _subscribers.Remove(subscriber);
+        }
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="eventType"></param>
+    /// <param name="param"></param>
+    public void Notify(string eventType, object param = null)
+    {
+        foreach (ISubscriber subscriber in _subscribers)
+        {
+            subscriber.OnNotify(eventType, param);
         }
     }
 }
