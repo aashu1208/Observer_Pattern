@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 539857199}
   - component: {fileID: 539857198}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: 'Cube State machine '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
