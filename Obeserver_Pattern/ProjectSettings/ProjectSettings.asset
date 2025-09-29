@@ -740,8 +740,9 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
+    Android: FUSION_WEAVER;FUSION2;FUSION_LOGLEVEL_INFO
     Server: FUSION_WEAVER;FUSION2
-    Standalone: FUSION_LOGLEVEL_INFO;FUSION_WEAVER;FUSION2
+    Standalone: FUSION_LOGLEVEL_INFO;FUSION_WEAVER;FUSION2;USE_SYSTEM_SPEECH
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -847,7 +848,7 @@ PlayerSettings:
   embeddedLinuxEnableGamepadInput: 1
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
-  apiCompatibilityLevel: 6
+  apiCompatibilityLevel: 3
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
   cloudProjectId: ff0306de-f8b0-4b6e-9973-40841fa8d1e4
