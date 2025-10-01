@@ -1,0 +1,595 @@
+2025-09-30 12:57:52.084 +05:30 [INF] Initializing Coplay services
+2025-09-30 12:57:52.099 +05:30 [INF] Initializing EditorThreadHelper
+2025-09-30 12:57:52.099 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-09-30 12:59:00.400 +05:30 [INF] Loading state from file, and setting to: Initialized
+2025-09-30 12:59:00.500 +05:30 [INF] No MCP servers configuration found
+2025-09-30 12:59:00.502 +05:30 [INF] MCP host initialized
+2025-09-30 12:59:00.563 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-09-30 12:59:00.566 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-09-30 12:59:00.630 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-09-30 12:59:00.630 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-09-30 12:59:02.212 +05:30 [INF] Placeholder text would be: What can I help with?
+2025-09-30 12:59:02.229 +05:30 [INF] Loading threads state
+2025-09-30 12:59:03.483 +05:30 [INF] Loading thread messages for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 12:59:03.503 +05:30 [INF] Saving state
+2025-09-30 12:59:03.576 +05:30 [INF] FunctionExecutionController: Loaded thread with 0 function calls from chat history.
+2025-09-30 12:59:03.577 +05:30 [INF] Clearing state model
+2025-09-30 12:59:03.577 +05:30 [WRN] You are setting to the same state: Initialized
+2025-09-30 12:59:03.589 +05:30 [INF] 1 OnThreadChanged
+2025-09-30 12:59:03.591 +05:30 [INF] Handling state change: Initialized
+2025-09-30 12:59:04.880 +05:30 [INF] Successfully refreshed access token
+2025-09-30 13:06:42.315 +05:30 [INF] Deinitializing Coplay services
+2025-09-30 13:06:42.319 +05:30 [INF] EditorThreadHelper disposed
+2025-09-30 13:06:51.411 +05:30 [INF] Initializing Coplay services
+2025-09-30 13:06:51.440 +05:30 [INF] Initializing EditorThreadHelper
+2025-09-30 13:06:51.440 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-09-30 13:08:07.443 +05:30 [INF] Loading state from file, and setting to: Initialized
+2025-09-30 13:08:07.529 +05:30 [INF] No MCP servers configuration found
+2025-09-30 13:08:07.529 +05:30 [INF] MCP host initialized
+2025-09-30 13:08:07.575 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-09-30 13:08:07.576 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-09-30 13:08:08.113 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-09-30 13:08:08.114 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-09-30 13:08:09.240 +05:30 [INF] Placeholder text would be: What can I help with?
+2025-09-30 13:08:09.255 +05:30 [INF] Loading threads state
+2025-09-30 13:08:09.554 +05:30 [INF] Loading thread messages for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:08:09.562 +05:30 [INF] Saving state
+2025-09-30 13:08:09.606 +05:30 [INF] FunctionExecutionController: Loaded thread with 0 function calls from chat history.
+2025-09-30 13:08:09.606 +05:30 [INF] Clearing state model
+2025-09-30 13:08:09.607 +05:30 [WRN] You are setting to the same state: Initialized
+2025-09-30 13:08:09.612 +05:30 [INF] 1 OnThreadChanged
+2025-09-30 13:08:09.614 +05:30 [INF] Handling state change: Initialized
+2025-09-30 13:08:30.391 +05:30 [INF] [Mode: Normal] User prompt: isme ek concept hai TTS uske liye kon si script used hai 
+2025-09-30 13:08:30.403 +05:30 [INF] Coplay State Change: Initialized -> WaitingForAI
+2025-09-30 13:08:30.464 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:08:30.476 +05:30 [INF] Starting background checkpoint creation for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14...
+2025-09-30 13:08:30.478 +05:30 [INF] Staging workspace for shadow repository: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Checkpoints\cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:08:30.482 +05:30 [INF] Started checkpoint creation with placeholder hash: pending-638948345104748951 for message: e2585c3d-c3aa-480b-83e8-841efc9c8442
+2025-09-30 13:08:30.508 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:08:30.604 +05:30 [INF] Files staged successfully
+2025-09-30 13:08:31.480 +05:30 [INF] Saving state
+2025-09-30 13:08:31.515 +05:30 [INF] Created checkpoint: 45eaf2e3e7fdc7e35074db08c4ee68da38577d46
+2025-09-30 13:08:31.517 +05:30 [INF] Before pending hash. Checkpoint completed for message e2585c3d-c3aa-480b-83e8-841efc9c8442. Actual hash: 45eaf2e3e7fdc7e35074db08c4ee68da38577d46
+2025-09-30 13:08:32.517 +05:30 [INF] Saving state
+2025-09-30 13:08:40.643 +05:30 [INF] Saving state
+2025-09-30 13:08:46.081 +05:30 [INF] Saving state
+2025-09-30 13:08:46.305 +05:30 [INF] Returned to previous state: WaitingForAI -> Initialized (Finished running assistant thread)
+2025-09-30 13:08:46.308 +05:30 [INF] Handling state change: Initialized
+2025-09-30 13:08:47.284 +05:30 [INF] Saving state
+2025-09-30 13:09:44.233 +05:30 [INF] [Mode: Normal] User prompt: will this work for all platforms?
+2025-09-30 13:09:44.236 +05:30 [INF] Coplay State Change: Initialized -> WaitingForAI
+2025-09-30 13:09:44.246 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:09:44.258 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:09:44.259 +05:30 [INF] Starting background checkpoint creation for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14...
+2025-09-30 13:09:44.259 +05:30 [INF] Staging workspace for shadow repository: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Checkpoints\cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:09:44.260 +05:30 [INF] Started checkpoint creation with placeholder hash: pending-638948345842592914 for message: 301745cb-2639-4c27-918f-911500fc2d2b
+2025-09-30 13:09:44.339 +05:30 [INF] Files staged successfully
+2025-09-30 13:09:45.190 +05:30 [INF] Created checkpoint: 33f3d4bff031bc27035ba724d7b71bd5c6578a70
+2025-09-30 13:09:45.190 +05:30 [INF] Before pending hash. Checkpoint completed for message 301745cb-2639-4c27-918f-911500fc2d2b. Actual hash: 33f3d4bff031bc27035ba724d7b71bd5c6578a70
+2025-09-30 13:09:46.190 +05:30 [INF] Saving state
+2025-09-30 13:09:52.639 +05:30 [INF] Saving state
+2025-09-30 13:09:53.677 +05:30 [INF] Saving state
+2025-09-30 13:09:56.713 +05:30 [INF] Saving state
+2025-09-30 13:09:57.918 +05:30 [INF] Returned to previous state: WaitingForAI -> Initialized (Finished running assistant thread)
+2025-09-30 13:09:57.920 +05:30 [INF] Handling state change: Initialized
+2025-09-30 13:09:58.897 +05:30 [INF] Saving state
+2025-09-30 13:14:18.102 +05:30 [INF] [Mode: Normal] User prompt: can you add gameobjects in the heirerchy ?
+2025-09-30 13:14:18.105 +05:30 [INF] Coplay State Change: Initialized -> WaitingForAI
+2025-09-30 13:14:18.115 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:14:18.138 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:14:18.139 +05:30 [INF] Starting background checkpoint creation for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14...
+2025-09-30 13:14:18.139 +05:30 [INF] Staging workspace for shadow repository: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Checkpoints\cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:14:18.141 +05:30 [INF] Started checkpoint creation with placeholder hash: pending-638948348581394661 for message: ddf63ad7-df3b-4200-9007-3e42062512c6
+2025-09-30 13:14:18.220 +05:30 [INF] Files staged successfully
+2025-09-30 13:14:19.016 +05:30 [INF] Created checkpoint: d44536159008260db7a60768ef5ab378f755aaa9
+2025-09-30 13:14:19.016 +05:30 [INF] Before pending hash. Checkpoint completed for message ddf63ad7-df3b-4200-9007-3e42062512c6. Actual hash: d44536159008260db7a60768ef5ab378f755aaa9
+2025-09-30 13:14:20.015 +05:30 [INF] Saving state
+2025-09-30 13:14:32.322 +05:30 [INF] Coplay State Change: WaitingForAI -> WaitingForUserToExecuteFunction
+2025-09-30 13:14:32.328 +05:30 [INF] Coplay State Change: WaitingForUserToExecuteFunction -> ExecutingAllFunctions
+2025-09-30 13:14:32.378 +05:30 [INF] Func: create_gameobject Args: name: Player, primitive_type: Capsule, position: 0,1,0, size: 1,2,1, use_world_coordinates: true
+2025-09-30 13:14:32.446 +05:30 [INF] Function result: Created Capsule GameObject Player.
+2025-09-30 13:14:32.815 +05:30 [INF] Func: create_gameobject Args: name: Enemy, primitive_type: Cube, position: 5,0.5,0, size: 1,1,1, use_world_coordinates: true
+2025-09-30 13:14:32.816 +05:30 [INF] Function result: Created Cube GameObject Enemy.
+2025-09-30 13:14:32.956 +05:30 [INF] Func: create_gameobject Args: name: Collectible, primitive_type: Sphere, position: -3,1,2, size: 0.5,0.5,0.5, use_world_coordinates: true
+2025-09-30 13:14:32.957 +05:30 [INF] Function result: Created Sphere GameObject Collectible.
+2025-09-30 13:14:33.099 +05:30 [INF] Func: create_gameobject Args: name: Platform, primitive_type: Cube, position: 0,2,5, size: 3,0.2,1, use_world_coordinates: true
+2025-09-30 13:14:33.100 +05:30 [INF] Function result: Created Cube GameObject Platform.
+2025-09-30 13:14:33.227 +05:30 [INF] Func: create_gameobject Args: name: GameManager, position: 0,0,0, use_world_coordinates: true
+2025-09-30 13:14:33.228 +05:30 [INF] Function result: Created empty GameObject GameManager.
+2025-09-30 13:14:33.347 +05:30 [INF] Returned to previous state: ExecutingAllFunctions -> WaitingForUserToExecuteFunction (All functions executed)
+2025-09-30 13:14:33.349 +05:30 [INF] Returned to previous state: WaitingForUserToExecuteFunction -> WaitingForAI (User has executed all functions)
+2025-09-30 13:14:33.349 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:14:33.349 +05:30 [INF] Handling state change: ExecutingAllFunctions
+2025-09-30 13:14:33.349 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:14:33.349 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:14:33.355 +05:30 [INF] Tool outputs: 5
+2025-09-30 13:14:33.358 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:14:33.359 +05:30 [INF] Starting background checkpoint creation for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14...
+2025-09-30 13:14:33.360 +05:30 [INF] Staging workspace for shadow repository: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Checkpoints\cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:14:33.361 +05:30 [INF] Started checkpoint creation with placeholder hash: pending-638948348733593567 for message: run--e21d2e47-c289-4a5d-bf68-420dbee49e39
+2025-09-30 13:14:33.463 +05:30 [INF] Files staged successfully
+2025-09-30 13:14:34.325 +05:30 [INF] Created checkpoint: c030bfcc8a4bebd705d48498dc3a867ea798d4d2
+2025-09-30 13:14:34.325 +05:30 [INF] Before pending hash. Checkpoint completed for message run--e21d2e47-c289-4a5d-bf68-420dbee49e39. Actual hash: c030bfcc8a4bebd705d48498dc3a867ea798d4d2
+2025-09-30 13:14:35.325 +05:30 [INF] Saving state
+2025-09-30 13:14:43.581 +05:30 [INF] Coplay State Change: WaitingForAI -> WaitingForUserToExecuteFunction
+2025-09-30 13:14:43.582 +05:30 [INF] Coplay State Change: WaitingForUserToExecuteFunction -> ExecutingAllFunctions
+2025-09-30 13:14:43.600 +05:30 [INF] Func: create_gameobject Args: name: UI, position: 0,0,0, use_world_coordinates: true
+2025-09-30 13:14:43.600 +05:30 [INF] Function result: Created empty GameObject UI.
+2025-09-30 13:14:43.733 +05:30 [INF] Func: create_gameobject Args: name: Environment, position: 0,0,0, use_world_coordinates: true
+2025-09-30 13:14:43.734 +05:30 [INF] Function result: Created empty GameObject Environment.
+2025-09-30 13:14:43.856 +05:30 [INF] Func: create_gameobject Args: name: Wall1, size: 0.2,3,10, position: 10,1.5,0, primitive_type: Cube, use_world_coordinates: true
+2025-09-30 13:14:43.857 +05:30 [INF] Function result: Created Cube GameObject Wall1.
+2025-09-30 13:14:43.997 +05:30 [INF] Func: create_gameobject Args: name: Wall2, size: 0.2,3,10, position: -10,1.5,0, primitive_type: Cube, use_world_coordinates: true
+2025-09-30 13:14:43.999 +05:30 [INF] Function result: Created Cube GameObject Wall2.
+2025-09-30 13:14:44.130 +05:30 [INF] Func: create_gameobject Args: name: Obstacle, size: 1,1,3, position: 2,0.5,-3, primitive_type: Cylinder, use_world_coordinates: true
+2025-09-30 13:14:44.130 +05:30 [INF] Function result: Created Cylinder GameObject Obstacle.
+2025-09-30 13:14:44.262 +05:30 [INF] Returned to previous state: ExecutingAllFunctions -> WaitingForUserToExecuteFunction (All functions executed)
+2025-09-30 13:14:44.263 +05:30 [INF] Returned to previous state: WaitingForUserToExecuteFunction -> WaitingForAI (User has executed all functions)
+2025-09-30 13:14:44.263 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:14:44.263 +05:30 [INF] Handling state change: ExecutingAllFunctions
+2025-09-30 13:14:44.263 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:14:44.264 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:14:44.264 +05:30 [INF] Tool outputs: 5
+2025-09-30 13:14:44.265 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:14:44.266 +05:30 [INF] Starting background checkpoint creation for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14...
+2025-09-30 13:14:44.266 +05:30 [INF] Staging workspace for shadow repository: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Checkpoints\cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:14:44.267 +05:30 [INF] Started checkpoint creation with placeholder hash: pending-638948348842669546 for message: run--4432ef92-990f-4c86-850e-53eab96fe083
+2025-09-30 13:14:44.366 +05:30 [INF] Files staged successfully
+2025-09-30 13:14:45.211 +05:30 [INF] Created checkpoint: d3152e81f87ca7afe600f6e9b6b060b2c99fe463
+2025-09-30 13:14:45.211 +05:30 [INF] Before pending hash. Checkpoint completed for message run--4432ef92-990f-4c86-850e-53eab96fe083. Actual hash: d3152e81f87ca7afe600f6e9b6b060b2c99fe463
+2025-09-30 13:14:46.212 +05:30 [INF] Saving state
+2025-09-30 13:14:52.801 +05:30 [INF] Coplay State Change: WaitingForAI -> WaitingForUserToExecuteFunction
+2025-09-30 13:14:52.802 +05:30 [INF] Coplay State Change: WaitingForUserToExecuteFunction -> ExecutingAllFunctions
+2025-09-30 13:14:52.815 +05:30 [INF] Func: parent_gameobject Args: child_path: Wall1, parent_path: Environment
+2025-09-30 13:14:52.830 +05:30 [INF] Function result: Set parent of GameObject Wall1 to Environment. New path: Environment/Wall1
+2025-09-30 13:14:52.967 +05:30 [INF] Func: parent_gameobject Args: child_path: Wall2, parent_path: Environment
+2025-09-30 13:14:52.967 +05:30 [INF] Function result: Set parent of GameObject Wall2 to Environment. New path: Environment/Wall2
+2025-09-30 13:14:53.104 +05:30 [INF] Func: parent_gameobject Args: child_path: Platform, parent_path: Environment
+2025-09-30 13:14:53.105 +05:30 [INF] Function result: Set parent of GameObject Platform to Environment. New path: Environment/Platform
+2025-09-30 13:14:53.246 +05:30 [INF] Func: parent_gameobject Args: child_path: Obstacle, parent_path: Environment
+2025-09-30 13:14:53.247 +05:30 [INF] Function result: Set parent of GameObject Obstacle to Environment. New path: Environment/Obstacle
+2025-09-30 13:14:53.371 +05:30 [INF] Returned to previous state: ExecutingAllFunctions -> WaitingForUserToExecuteFunction (All functions executed)
+2025-09-30 13:14:53.371 +05:30 [INF] Returned to previous state: WaitingForUserToExecuteFunction -> WaitingForAI (User has executed all functions)
+2025-09-30 13:14:53.373 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:14:53.373 +05:30 [INF] Handling state change: ExecutingAllFunctions
+2025-09-30 13:14:53.373 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:14:53.373 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:14:53.373 +05:30 [INF] Tool outputs: 4
+2025-09-30 13:14:53.374 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:14:53.374 +05:30 [INF] Starting background checkpoint creation for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14...
+2025-09-30 13:14:53.375 +05:30 [INF] Staging workspace for shadow repository: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Checkpoints\cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:14:53.377 +05:30 [INF] Started checkpoint creation with placeholder hash: pending-638948348933744094 for message: run--39391759-1f04-4d8e-843c-f38b532b4ce4
+2025-09-30 13:14:53.473 +05:30 [INF] Files staged successfully
+2025-09-30 13:14:54.370 +05:30 [INF] Created checkpoint: 8603b577ca1228de655a7811f28a740df9f89269
+2025-09-30 13:14:54.370 +05:30 [INF] Before pending hash. Checkpoint completed for message run--39391759-1f04-4d8e-843c-f38b532b4ce4. Actual hash: 8603b577ca1228de655a7811f28a740df9f89269
+2025-09-30 13:14:55.371 +05:30 [INF] Saving state
+2025-09-30 13:15:00.683 +05:30 [INF] Coplay State Change: WaitingForAI -> WaitingForUserToExecuteFunction
+2025-09-30 13:15:00.684 +05:30 [INF] Coplay State Change: WaitingForUserToExecuteFunction -> ExecutingAllFunctions
+2025-09-30 13:15:00.697 +05:30 [INF] Func: add_component Args: component_type: Rigidbody, gameobject_path: Player
+2025-09-30 13:15:00.710 +05:30 [INF] Function result: Added component 'Rigidbody' to GameObject 'Player'.
+2025-09-30 13:15:00.838 +05:30 [INF] Func: add_component Args: component_type: Rigidbody, gameobject_path: Collectible
+2025-09-30 13:15:00.838 +05:30 [INF] Function result: Added component 'Rigidbody' to GameObject 'Collectible'.
+2025-09-30 13:15:00.983 +05:30 [INF] Func: add_component Args: component_type: GameManager, gameobject_path: GameManager
+2025-09-30 13:15:01.337 +05:30 [INF] Function result: Added component 'GameManager' to GameObject 'GameManager'.
+2025-09-30 13:15:01.491 +05:30 [INF] Func: add_component Args: component_type: ExampleScript, gameobject_path: Enemy
+2025-09-30 13:15:01.531 +05:30 [INF] Function result: Added component 'ExampleScript' to GameObject 'Enemy'.
+2025-09-30 13:15:01.692 +05:30 [INF] Returned to previous state: ExecutingAllFunctions -> WaitingForUserToExecuteFunction (All functions executed)
+2025-09-30 13:15:01.693 +05:30 [INF] Returned to previous state: WaitingForUserToExecuteFunction -> WaitingForAI (User has executed all functions)
+2025-09-30 13:15:01.693 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:15:01.693 +05:30 [INF] Handling state change: ExecutingAllFunctions
+2025-09-30 13:15:01.693 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:15:01.693 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:15:01.693 +05:30 [INF] Tool outputs: 4
+2025-09-30 13:15:01.696 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:15:01.696 +05:30 [INF] Starting background checkpoint creation for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14...
+2025-09-30 13:15:01.696 +05:30 [INF] Staging workspace for shadow repository: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Checkpoints\cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:15:01.697 +05:30 [INF] Started checkpoint creation with placeholder hash: pending-638948349016966927 for message: run--6905766b-5883-4173-89da-d2697183df91
+2025-09-30 13:15:01.792 +05:30 [INF] Files staged successfully
+2025-09-30 13:15:02.516 +05:30 [INF] Created checkpoint: 1b470f07cc167540e32d58a13634d149d8b8e044
+2025-09-30 13:15:02.517 +05:30 [INF] Before pending hash. Checkpoint completed for message run--6905766b-5883-4173-89da-d2697183df91. Actual hash: 1b470f07cc167540e32d58a13634d149d8b8e044
+2025-09-30 13:15:03.516 +05:30 [INF] Saving state
+2025-09-30 13:15:11.199 +05:30 [INF] Returned to previous state: WaitingForAI -> Initialized (Finished running assistant thread)
+2025-09-30 13:15:11.200 +05:30 [INF] Handling state change: Initialized
+2025-09-30 13:15:12.197 +05:30 [INF] Saving state
+2025-09-30 13:15:52.376 +05:30 [INF] [Mode: Normal] User prompt: can you add colors to these gameobjects?
+2025-09-30 13:15:52.380 +05:30 [INF] Coplay State Change: Initialized -> WaitingForAI
+2025-09-30 13:15:52.391 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:15:52.415 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:15:52.415 +05:30 [INF] Starting background checkpoint creation for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14...
+2025-09-30 13:15:52.415 +05:30 [INF] Staging workspace for shadow repository: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Checkpoints\cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:15:52.416 +05:30 [INF] Started checkpoint creation with placeholder hash: pending-638948349524153450 for message: 8520f62a-49a2-4217-9282-668342943073
+2025-09-30 13:15:52.486 +05:30 [INF] Files staged successfully
+2025-09-30 13:15:53.242 +05:30 [INF] Created checkpoint: b191dd51aea92f6af3edf3bbb2f58c37a8e9f278
+2025-09-30 13:15:53.242 +05:30 [INF] Before pending hash. Checkpoint completed for message 8520f62a-49a2-4217-9282-668342943073. Actual hash: b191dd51aea92f6af3edf3bbb2f58c37a8e9f278
+2025-09-30 13:15:54.242 +05:30 [INF] Saving state
+2025-09-30 13:16:02.515 +05:30 [INF] Coplay State Change: WaitingForAI -> WaitingForUserToExecuteFunction
+2025-09-30 13:16:02.516 +05:30 [INF] Coplay State Change: WaitingForUserToExecuteFunction -> ExecutingAllFunctions
+2025-09-30 13:16:02.519 +05:30 [INF] Func: create_material Args: material_name: PlayerMaterial, color: 0.2,0.8,0.2,1, material_path: Assets/Materials
+2025-09-30 13:16:02.676 +05:30 [INF] Function result: Created material 'PlayerMaterial' at 'Assets/Materials\PlayerMaterial.mat'.
+2025-09-30 13:16:02.686 +05:30 [INF] Func: create_material Args: material_name: EnemyMaterial, color: 0.8,0.2,0.2,1, material_path: Assets/Materials
+2025-09-30 13:16:02.739 +05:30 [INF] Function result: Created material 'EnemyMaterial' at 'Assets/Materials\EnemyMaterial.mat'.
+2025-09-30 13:16:02.745 +05:30 [INF] Func: create_material Args: material_name: CollectibleMaterial, color: 1,0.8,0.2,1, material_path: Assets/Materials
+2025-09-30 13:16:02.797 +05:30 [INF] Function result: Created material 'CollectibleMaterial' at 'Assets/Materials\CollectibleMaterial.mat'.
+2025-09-30 13:16:02.802 +05:30 [INF] Func: create_material Args: material_name: PlatformMaterial, color: 0.5,0.3,0.1,1, material_path: Assets/Materials
+2025-09-30 13:16:02.858 +05:30 [INF] Function result: Created material 'PlatformMaterial' at 'Assets/Materials\PlatformMaterial.mat'.
+2025-09-30 13:16:02.863 +05:30 [INF] Func: create_material Args: material_name: WallMaterial, color: 0.6,0.6,0.6,1, material_path: Assets/Materials
+2025-09-30 13:16:02.917 +05:30 [INF] Function result: Created material 'WallMaterial' at 'Assets/Materials\WallMaterial.mat'.
+2025-09-30 13:16:02.921 +05:30 [INF] Returned to previous state: ExecutingAllFunctions -> WaitingForUserToExecuteFunction (All functions executed)
+2025-09-30 13:16:02.921 +05:30 [INF] Returned to previous state: WaitingForUserToExecuteFunction -> WaitingForAI (User has executed all functions)
+2025-09-30 13:16:02.922 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:16:02.922 +05:30 [INF] Handling state change: ExecutingAllFunctions
+2025-09-30 13:16:02.922 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:16:02.922 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:16:02.922 +05:30 [INF] Tool outputs: 5
+2025-09-30 13:16:02.924 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:16:02.924 +05:30 [INF] Starting background checkpoint creation for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14...
+2025-09-30 13:16:02.924 +05:30 [INF] Staging workspace for shadow repository: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Checkpoints\cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:16:02.925 +05:30 [INF] Started checkpoint creation with placeholder hash: pending-638948349629241295 for message: run--2f28a1f8-8c7b-418c-b514-b8d90ec1216b
+2025-09-30 13:16:03.028 +05:30 [INF] Files staged successfully
+2025-09-30 13:16:03.770 +05:30 [INF] Created checkpoint: 4b45ba7cb79ae878be972c56dd7e7f9ada457ec9
+2025-09-30 13:16:03.770 +05:30 [INF] Before pending hash. Checkpoint completed for message run--2f28a1f8-8c7b-418c-b514-b8d90ec1216b. Actual hash: 4b45ba7cb79ae878be972c56dd7e7f9ada457ec9
+2025-09-30 13:16:04.770 +05:30 [INF] Saving state
+2025-09-30 13:16:09.064 +05:30 [INF] Coplay State Change: WaitingForAI -> WaitingForUserToExecuteFunction
+2025-09-30 13:16:09.065 +05:30 [INF] Coplay State Change: WaitingForUserToExecuteFunction -> ExecutingAllFunctions
+2025-09-30 13:16:09.069 +05:30 [INF] Func: create_material Args: color: 0.4,0.2,0.8,1, material_name: ObstacleMaterial, material_path: Assets/Materials
+2025-09-30 13:16:09.139 +05:30 [INF] Function result: Created material 'ObstacleMaterial' at 'Assets/Materials\ObstacleMaterial.mat'.
+2025-09-30 13:16:09.143 +05:30 [INF] Func: create_material Args: color: 0.1,0.5,0.9,1, material_name: GameObjectMaterial, material_path: Assets/Materials
+2025-09-30 13:16:09.196 +05:30 [INF] Function result: Created material 'GameObjectMaterial' at 'Assets/Materials\GameObjectMaterial.mat'.
+2025-09-30 13:16:09.200 +05:30 [INF] Returned to previous state: ExecutingAllFunctions -> WaitingForUserToExecuteFunction (All functions executed)
+2025-09-30 13:16:09.201 +05:30 [INF] Returned to previous state: WaitingForUserToExecuteFunction -> WaitingForAI (User has executed all functions)
+2025-09-30 13:16:09.201 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:16:09.201 +05:30 [INF] Handling state change: ExecutingAllFunctions
+2025-09-30 13:16:09.201 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:16:09.201 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:16:09.201 +05:30 [INF] Tool outputs: 2
+2025-09-30 13:16:09.202 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:16:09.202 +05:30 [INF] Starting background checkpoint creation for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14...
+2025-09-30 13:16:09.202 +05:30 [INF] Staging workspace for shadow repository: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Checkpoints\cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:16:09.204 +05:30 [INF] Started checkpoint creation with placeholder hash: pending-638948349692027426 for message: run--f4c2d4d7-0e4d-43ce-970d-6c24d41a6cd0
+2025-09-30 13:16:09.297 +05:30 [INF] Files staged successfully
+2025-09-30 13:16:10.092 +05:30 [INF] Created checkpoint: 1a8eab17eec6330991f25470f6b37e7758dc6a56
+2025-09-30 13:16:10.092 +05:30 [INF] Before pending hash. Checkpoint completed for message run--f4c2d4d7-0e4d-43ce-970d-6c24d41a6cd0. Actual hash: 1a8eab17eec6330991f25470f6b37e7758dc6a56
+2025-09-30 13:16:11.092 +05:30 [INF] Saving state
+2025-09-30 13:16:17.159 +05:30 [INF] Coplay State Change: WaitingForAI -> WaitingForUserToExecuteFunction
+2025-09-30 13:16:17.161 +05:30 [INF] Coplay State Change: WaitingForUserToExecuteFunction -> ExecutingAllFunctions
+2025-09-30 13:16:17.164 +05:30 [INF] Func: assign_material Args: gameobject_path: Player, material_name: PlayerMaterial, material_path: Assets/Materials
+2025-09-30 13:16:17.167 +05:30 [INF] Function result: Assigned material 'PlayerMaterial' to 'Player'.
+2025-09-30 13:16:17.279 +05:30 [INF] Func: assign_material Args: gameobject_path: Enemy, material_name: EnemyMaterial, material_path: Assets/Materials
+2025-09-30 13:16:17.280 +05:30 [INF] Function result: Assigned material 'EnemyMaterial' to 'Enemy'.
+2025-09-30 13:16:17.383 +05:30 [INF] Func: assign_material Args: gameobject_path: Collectible, material_name: CollectibleMaterial, material_path: Assets/Materials
+2025-09-30 13:16:17.384 +05:30 [INF] Function result: Assigned material 'CollectibleMaterial' to 'Collectible'.
+2025-09-30 13:16:17.468 +05:30 [INF] Func: assign_material Args: gameobject_path: Environment/Platform, material_name: PlatformMaterial, material_path: Assets/Materials
+2025-09-30 13:16:17.470 +05:30 [INF] Function result: Assigned material 'PlatformMaterial' to 'Environment/Platform'.
+2025-09-30 13:16:17.566 +05:30 [INF] Func: assign_material Args: gameobject_path: Environment/Wall1, material_name: WallMaterial, material_path: Assets/Materials
+2025-09-30 13:16:17.566 +05:30 [INF] Function result: Assigned material 'WallMaterial' to 'Environment/Wall1'.
+2025-09-30 13:16:17.662 +05:30 [INF] Returned to previous state: ExecutingAllFunctions -> WaitingForUserToExecuteFunction (All functions executed)
+2025-09-30 13:16:17.663 +05:30 [INF] Returned to previous state: WaitingForUserToExecuteFunction -> WaitingForAI (User has executed all functions)
+2025-09-30 13:16:17.664 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:16:17.664 +05:30 [INF] Handling state change: ExecutingAllFunctions
+2025-09-30 13:16:17.664 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:16:17.664 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:16:17.664 +05:30 [INF] Tool outputs: 5
+2025-09-30 13:16:17.666 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:16:17.666 +05:30 [INF] Starting background checkpoint creation for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14...
+2025-09-30 13:16:17.666 +05:30 [INF] Staging workspace for shadow repository: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Checkpoints\cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:16:17.667 +05:30 [INF] Started checkpoint creation with placeholder hash: pending-638948349776662427 for message: run--53d6522b-c443-4dd7-8f14-a4a9b9b2c75c
+2025-09-30 13:16:17.757 +05:30 [INF] Files staged successfully
+2025-09-30 13:16:18.639 +05:30 [INF] Created checkpoint: 861c5c1a5a6b85c2315b13015b738b94a8547f96
+2025-09-30 13:16:18.639 +05:30 [INF] Before pending hash. Checkpoint completed for message run--53d6522b-c443-4dd7-8f14-a4a9b9b2c75c. Actual hash: 861c5c1a5a6b85c2315b13015b738b94a8547f96
+2025-09-30 13:16:19.639 +05:30 [INF] Saving state
+2025-09-30 13:16:24.775 +05:30 [INF] Coplay State Change: WaitingForAI -> WaitingForUserToExecuteFunction
+2025-09-30 13:16:24.776 +05:30 [INF] Coplay State Change: WaitingForUserToExecuteFunction -> ExecutingAllFunctions
+2025-09-30 13:16:24.778 +05:30 [INF] Func: assign_material Args: material_name: WallMaterial, material_path: Assets/Materials, gameobject_path: Environment/Wall2
+2025-09-30 13:16:24.778 +05:30 [INF] Function result: Assigned material 'WallMaterial' to 'Environment/Wall2'.
+2025-09-30 13:16:24.883 +05:30 [INF] Func: assign_material Args: material_name: ObstacleMaterial, material_path: Assets/Materials, gameobject_path: Environment/Obstacle
+2025-09-30 13:16:24.883 +05:30 [INF] Function result: Assigned material 'ObstacleMaterial' to 'Environment/Obstacle'.
+2025-09-30 13:16:24.979 +05:30 [INF] Func: assign_material Args: material_name: GameObjectMaterial, material_path: Assets/Materials, gameobject_path: GameObject
+2025-09-30 13:16:24.980 +05:30 [INF] Function result: Error: Renderer not found on 'GameObject'.
+2025-09-30 13:16:24.982 +05:30 [INF] Returned to previous state: ExecutingAllFunctions -> WaitingForUserToExecuteFunction (All functions executed)
+2025-09-30 13:16:24.983 +05:30 [INF] Returned to previous state: WaitingForUserToExecuteFunction -> WaitingForAI (User has executed all functions)
+2025-09-30 13:16:24.983 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:16:24.983 +05:30 [INF] Handling state change: ExecutingAllFunctions
+2025-09-30 13:16:24.983 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:16:24.983 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:16:24.983 +05:30 [INF] Tool outputs: 3
+2025-09-30 13:16:24.985 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:16:24.985 +05:30 [INF] Starting background checkpoint creation for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14...
+2025-09-30 13:16:24.985 +05:30 [INF] Staging workspace for shadow repository: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Checkpoints\cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:16:24.987 +05:30 [INF] Started checkpoint creation with placeholder hash: pending-638948349849854632 for message: run--a05c6b75-9701-47be-aa4e-55e60098ba80
+2025-09-30 13:16:25.060 +05:30 [INF] Files staged successfully
+2025-09-30 13:16:25.894 +05:30 [INF] Created checkpoint: b3f3573320001f31b20b8973d7cfa9157c6c32cb
+2025-09-30 13:16:25.894 +05:30 [INF] Before pending hash. Checkpoint completed for message run--a05c6b75-9701-47be-aa4e-55e60098ba80. Actual hash: b3f3573320001f31b20b8973d7cfa9157c6c32cb
+2025-09-30 13:16:26.893 +05:30 [INF] Saving state
+2025-09-30 13:16:35.412 +05:30 [INF] Returned to previous state: WaitingForAI -> Initialized (Finished running assistant thread)
+2025-09-30 13:16:35.415 +05:30 [INF] Handling state change: Initialized
+2025-09-30 13:16:36.408 +05:30 [INF] Saving state
+2025-09-30 13:16:42.510 +05:30 [INF] Clearing All
+2025-09-30 13:16:42.510 +05:30 [INF] Clearing state model
+2025-09-30 13:16:42.510 +05:30 [WRN] You are setting to the same state: Initialized
+2025-09-30 13:16:42.520 +05:30 [INF] Cleaned up all thumbnail textures
+2025-09-30 13:16:42.522 +05:30 [INF] AssistantController: Dispose called
+2025-09-30 13:16:42.523 +05:30 [INF] FunctionExecutionController: Dispose called
+2025-09-30 13:16:42.524 +05:30 [INF] Saving state
+2025-09-30 13:16:46.850 +05:30 [INF] Loading state from file, and setting to: Initialized
+2025-09-30 13:16:46.852 +05:30 [INF] No request found, returning empty.
+2025-09-30 13:16:46.865 +05:30 [INF] No MCP servers configuration found
+2025-09-30 13:16:46.865 +05:30 [INF] MCP host initialized
+2025-09-30 13:16:46.869 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-09-30 13:16:46.869 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-09-30 13:16:46.947 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-09-30 13:16:46.947 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-09-30 13:16:47.133 +05:30 [INF] Placeholder text would be: What can I help with?
+2025-09-30 13:16:47.148 +05:30 [INF] Loading threads state
+2025-09-30 13:16:47.191 +05:30 [INF] Loading thread messages for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:16:47.201 +05:30 [INF] Saving state
+2025-09-30 13:16:47.223 +05:30 [INF] FunctionExecutionController: Loaded thread with 0 function calls from chat history.
+2025-09-30 13:16:47.223 +05:30 [INF] Clearing state model
+2025-09-30 13:16:47.223 +05:30 [WRN] You are setting to the same state: Initialized
+2025-09-30 13:16:47.224 +05:30 [INF] 1 OnThreadChanged
+2025-09-30 13:16:47.224 +05:30 [INF] Handling state change: Initialized
+2025-09-30 13:16:51.381 +05:30 [INF] Clearing All
+2025-09-30 13:16:51.381 +05:30 [INF] Clearing state model
+2025-09-30 13:16:51.381 +05:30 [WRN] You are setting to the same state: Initialized
+2025-09-30 13:16:51.382 +05:30 [INF] Cleaned up all thumbnail textures
+2025-09-30 13:16:51.382 +05:30 [INF] AssistantController: Dispose called
+2025-09-30 13:16:51.382 +05:30 [INF] FunctionExecutionController: Dispose called
+2025-09-30 13:16:51.382 +05:30 [INF] Saving state
+2025-09-30 13:17:09.324 +05:30 [INF] Loading state from file, and setting to: Initialized
+2025-09-30 13:17:09.325 +05:30 [INF] No request found, returning empty.
+2025-09-30 13:17:09.326 +05:30 [INF] No MCP servers configuration found
+2025-09-30 13:17:09.326 +05:30 [INF] MCP host initialized
+2025-09-30 13:17:09.328 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-09-30 13:17:09.328 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-09-30 13:17:09.421 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-09-30 13:17:09.421 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-09-30 13:17:09.644 +05:30 [INF] Placeholder text would be: What can I help with?
+2025-09-30 13:17:09.664 +05:30 [INF] Loading threads state
+2025-09-30 13:17:09.680 +05:30 [INF] Loading thread messages for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:17:09.695 +05:30 [INF] Saving state
+2025-09-30 13:17:09.727 +05:30 [INF] FunctionExecutionController: Loaded thread with 0 function calls from chat history.
+2025-09-30 13:17:09.727 +05:30 [INF] Clearing state model
+2025-09-30 13:17:09.727 +05:30 [WRN] You are setting to the same state: Initialized
+2025-09-30 13:17:09.728 +05:30 [INF] 1 OnThreadChanged
+2025-09-30 13:17:09.728 +05:30 [INF] Handling state change: Initialized
+2025-09-30 13:22:22.572 +05:30 [INF] [Mode: Normal] User prompt: you havn't added for the walls ?
+2025-09-30 13:22:22.577 +05:30 [INF] Coplay State Change: Initialized -> WaitingForAI
+2025-09-30 13:22:22.585 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:22:22.587 +05:30 [INF] Starting background checkpoint creation for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14...
+2025-09-30 13:22:22.587 +05:30 [INF] Staging workspace for shadow repository: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Checkpoints\cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:22:22.590 +05:30 [INF] Started checkpoint creation with placeholder hash: pending-638948353425870330 for message: 2ab5be38-9d7f-4164-b9dd-1a820445fb6e
+2025-09-30 13:22:22.608 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:22:22.674 +05:30 [INF] Files staged successfully
+2025-09-30 13:22:23.442 +05:30 [INF] Created checkpoint: db43d8fb8e56fef4d894f614fb7098b2d950ae7b
+2025-09-30 13:22:23.442 +05:30 [INF] Before pending hash. Checkpoint completed for message 2ab5be38-9d7f-4164-b9dd-1a820445fb6e. Actual hash: db43d8fb8e56fef4d894f614fb7098b2d950ae7b
+2025-09-30 13:22:24.442 +05:30 [INF] Saving state
+2025-09-30 13:22:30.027 +05:30 [INF] Coplay State Change: WaitingForAI -> WaitingForUserToExecuteFunction
+2025-09-30 13:22:30.029 +05:30 [INF] Coplay State Change: WaitingForUserToExecuteFunction -> ExecutingAllFunctions
+2025-09-30 13:22:30.032 +05:30 [INF] Func: get_game_object_info Args: gameObjectPath: /Environment/Wall1, componentFilter: MeshRenderer, includeInactive: false
+2025-09-30 13:22:30.108 +05:30 [INF] Function result: {
+  "Name": "Wall1",
+  "Tag": "Untagged",
+  "Layer": 0,
+  "LayerName": "Default",
+  "IsStatic": false,
+  "IsActive": true,
+  "Bounds": {
+    "center": {
+      "x": 10.0,
+      "y": 1.5,
+      "z": 0.0
+    },
+    "size": {
+      "x": 0.2,
+      "y": 3.0,
+      "z": 10.0
+    },
+    "min": {
+      "x": 9.9,
+      "y": 0.0,
+      "z": -5.0
+    },
+    "max": {
+      "x": 10.1,
+      "y": 3.0,
+      "z": 5.0
+    }
+  },
+  "Components": [
+    {
+      "type": "UnityEngine.MeshRenderer",
+      "properties": {
+        "enabled": true,
+        "materialName": "WallMaterial",
+        "shaderName": "Standard",
+        "materialPath": "Assets/Materials/WallMaterial.mat",
+        "materialCount": 1,
+        "materialNames": [
+          "WallMaterial"
+        ]
+      }
+    }
+  ]
+}
+2025-09-30 13:22:30.115 +05:30 [INF] Returned to previous state: ExecutingAllFunctions -> WaitingForUserToExecuteFunction (All functions executed)
+2025-09-30 13:22:30.116 +05:30 [INF] Returned to previous state: WaitingForUserToExecuteFunction -> WaitingForAI (User has executed all functions)
+2025-09-30 13:22:30.117 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:22:30.117 +05:30 [INF] Handling state change: ExecutingAllFunctions
+2025-09-30 13:22:30.117 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:22:30.117 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:22:30.117 +05:30 [INF] Tool outputs: 1
+2025-09-30 13:22:30.119 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:22:30.120 +05:30 [INF] Skipping checkpoint creation - all functions in message run--46bfe0d0-d4c3-4a5c-a200-39d4ce05e694 are read-only or get_scene_view_screenshot
+2025-09-30 13:22:31.117 +05:30 [INF] Saving state
+2025-09-30 13:22:34.912 +05:30 [INF] Coplay State Change: WaitingForAI -> WaitingForUserToExecuteFunction
+2025-09-30 13:22:34.913 +05:30 [INF] Coplay State Change: WaitingForUserToExecuteFunction -> ExecutingAllFunctions
+2025-09-30 13:22:34.916 +05:30 [INF] Func: get_game_object_info Args: gameObjectPath: /Environment/Wall2, componentFilter: MeshRenderer, includeInactive: false
+2025-09-30 13:22:34.919 +05:30 [INF] Function result: {
+  "Name": "Wall2",
+  "Tag": "Untagged",
+  "Layer": 0,
+  "LayerName": "Default",
+  "IsStatic": false,
+  "IsActive": true,
+  "Bounds": {
+    "center": {
+      "x": -10.0,
+      "y": 1.5,
+      "z": 0.0
+    },
+    "size": {
+      "x": 0.2,
+      "y": 3.0,
+      "z": 10.0
+    },
+    "min": {
+      "x": -10.1,
+      "y": 0.0,
+      "z": -5.0
+    },
+    "max": {
+      "x": -9.9,
+      "y": 3.0,
+      "z": 5.0
+    }
+  },
+  "Components": [
+    {
+      "type": "UnityEngine.MeshRenderer",
+      "properties": {
+        "enabled": true,
+        "materialName": "WallMaterial",
+        "shaderName": "Standard",
+        "materialPath": "Assets/Materials/WallMaterial.mat",
+        "materialCount": 1,
+        "materialNames": [
+          "WallMaterial"
+        ]
+      }
+    }
+  ]
+}
+2025-09-30 13:22:34.922 +05:30 [INF] Returned to previous state: ExecutingAllFunctions -> WaitingForUserToExecuteFunction (All functions executed)
+2025-09-30 13:22:34.923 +05:30 [INF] Returned to previous state: WaitingForUserToExecuteFunction -> WaitingForAI (User has executed all functions)
+2025-09-30 13:22:34.923 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:22:34.923 +05:30 [INF] Handling state change: ExecutingAllFunctions
+2025-09-30 13:22:34.923 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:22:34.924 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:22:34.924 +05:30 [INF] Tool outputs: 1
+2025-09-30 13:22:34.926 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:22:34.926 +05:30 [INF] Skipping checkpoint creation - all functions in message run--1d81dafd-b2bb-47f2-8bd1-d752e2692f5a are read-only or get_scene_view_screenshot
+2025-09-30 13:22:35.925 +05:30 [INF] Saving state
+2025-09-30 13:22:43.869 +05:30 [INF] Coplay State Change: WaitingForAI -> WaitingForUserToExecuteFunction
+2025-09-30 13:22:43.870 +05:30 [INF] Coplay State Change: WaitingForUserToExecuteFunction -> ExecutingAllFunctions
+2025-09-30 13:22:43.883 +05:30 [INF] Func: get_scene_view_screenshot Args: includeUI: false
+2025-09-30 13:22:43.927 +05:30 [INF] Scene View screenshot (built-in pipeline, camera only, no UI) saved to: C:/Users/Asus/AppData/LocalLow/DefaultCompany/Obeserver_Pattern\CoplayImagePreviews\toolu_01CpdGBFpgZfXvAb9LkLBXor.png
+2025-09-30 13:22:44.051 +05:30 [INF] Function result: Successfully captured scene view screenshot.
+2025-09-30 13:22:44.072 +05:30 [INF] Returned to previous state: ExecutingAllFunctions -> WaitingForUserToExecuteFunction (All functions executed)
+2025-09-30 13:22:44.074 +05:30 [INF] Returned to previous state: WaitingForUserToExecuteFunction -> WaitingForAI (User has executed all functions)
+2025-09-30 13:22:44.075 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:22:44.075 +05:30 [INF] Handling state change: ExecutingAllFunctions
+2025-09-30 13:22:44.075 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:22:44.075 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:22:44.097 +05:30 [INF] Tool outputs: 1
+2025-09-30 13:22:44.107 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:22:44.107 +05:30 [INF] Skipping checkpoint creation - all functions in message run--9d386e91-b0e8-49f2-981e-33e8ddfa3e7b are read-only or get_scene_view_screenshot
+2025-09-30 13:22:45.098 +05:30 [INF] Saving state
+2025-09-30 13:22:55.343 +05:30 [INF] Returned to previous state: WaitingForAI -> Initialized (Finished running assistant thread)
+2025-09-30 13:22:55.345 +05:30 [INF] Handling state change: Initialized
+2025-09-30 13:22:56.340 +05:30 [INF] Saving state
+2025-09-30 13:23:18.270 +05:30 [INF] [Mode: Normal] User prompt: can you change the color of the walls?
+2025-09-30 13:23:18.273 +05:30 [INF] Coplay State Change: Initialized -> WaitingForAI
+2025-09-30 13:23:18.283 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:23:18.283 +05:30 [INF] Starting background checkpoint creation for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14...
+2025-09-30 13:23:18.285 +05:30 [INF] Staging workspace for shadow repository: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Checkpoints\cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:23:18.288 +05:30 [INF] Started checkpoint creation with placeholder hash: pending-638948353982835964 for message: 437c8927-09ed-43c4-b7d1-a03745c63121
+2025-09-30 13:23:18.289 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:23:18.365 +05:30 [INF] Files staged successfully
+2025-09-30 13:23:19.213 +05:30 [INF] Created checkpoint: 10ee72d21fe07afa729368997b99cc8f585f2373
+2025-09-30 13:23:19.213 +05:30 [INF] Before pending hash. Checkpoint completed for message 437c8927-09ed-43c4-b7d1-a03745c63121. Actual hash: 10ee72d21fe07afa729368997b99cc8f585f2373
+2025-09-30 13:23:20.214 +05:30 [INF] Saving state
+2025-09-30 13:23:24.973 +05:30 [INF] Coplay State Change: WaitingForAI -> WaitingForUserToExecuteFunction
+2025-09-30 13:23:24.973 +05:30 [INF] Coplay State Change: WaitingForUserToExecuteFunction -> ExecutingAllFunctions
+2025-09-30 13:23:24.976 +05:30 [INF] Func: create_material Args: color: 0.2,0.4,0.8,1, material_name: NewWallMaterial, material_path: Assets/Materials
+2025-09-30 13:23:25.037 +05:30 [INF] Function result: Created material 'NewWallMaterial' at 'Assets/Materials\NewWallMaterial.mat'.
+2025-09-30 13:23:25.040 +05:30 [INF] Returned to previous state: ExecutingAllFunctions -> WaitingForUserToExecuteFunction (All functions executed)
+2025-09-30 13:23:25.040 +05:30 [INF] Returned to previous state: WaitingForUserToExecuteFunction -> WaitingForAI (User has executed all functions)
+2025-09-30 13:23:25.040 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:23:25.040 +05:30 [INF] Handling state change: ExecutingAllFunctions
+2025-09-30 13:23:25.040 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:23:25.040 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:23:25.040 +05:30 [INF] Tool outputs: 1
+2025-09-30 13:23:25.044 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:23:25.044 +05:30 [INF] Starting background checkpoint creation for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14...
+2025-09-30 13:23:25.044 +05:30 [INF] Staging workspace for shadow repository: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Checkpoints\cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:23:25.048 +05:30 [INF] Started checkpoint creation with placeholder hash: pending-638948354050442714 for message: run--7ac6f4d0-90b4-4c3d-ac33-f57df99d77c9
+2025-09-30 13:23:25.123 +05:30 [INF] Files staged successfully
+2025-09-30 13:23:25.916 +05:30 [INF] Created checkpoint: c12e989280ff9d3c3078ec55d71fbaa0e9846df7
+2025-09-30 13:23:25.916 +05:30 [INF] Before pending hash. Checkpoint completed for message run--7ac6f4d0-90b4-4c3d-ac33-f57df99d77c9. Actual hash: c12e989280ff9d3c3078ec55d71fbaa0e9846df7
+2025-09-30 13:23:26.916 +05:30 [INF] Saving state
+2025-09-30 13:23:31.744 +05:30 [INF] Coplay State Change: WaitingForAI -> WaitingForUserToExecuteFunction
+2025-09-30 13:23:31.745 +05:30 [INF] Coplay State Change: WaitingForUserToExecuteFunction -> ExecutingAllFunctions
+2025-09-30 13:23:31.748 +05:30 [INF] Func: assign_material Args: material_name: NewWallMaterial, material_path: Assets/Materials, gameobject_path: Environment/Wall1
+2025-09-30 13:23:31.748 +05:30 [INF] Function result: Assigned material 'NewWallMaterial' to 'Environment/Wall1'.
+2025-09-30 13:23:31.881 +05:30 [INF] Func: assign_material Args: material_name: NewWallMaterial, material_path: Assets/Materials, gameobject_path: Environment/Wall2
+2025-09-30 13:23:31.881 +05:30 [INF] Function result: Assigned material 'NewWallMaterial' to 'Environment/Wall2'.
+2025-09-30 13:23:32.008 +05:30 [INF] Returned to previous state: ExecutingAllFunctions -> WaitingForUserToExecuteFunction (All functions executed)
+2025-09-30 13:23:32.009 +05:30 [INF] Returned to previous state: WaitingForUserToExecuteFunction -> WaitingForAI (User has executed all functions)
+2025-09-30 13:23:32.010 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:23:32.010 +05:30 [INF] Handling state change: ExecutingAllFunctions
+2025-09-30 13:23:32.010 +05:30 [INF] Handling state change: WaitingForUserToExecuteFunction
+2025-09-30 13:23:32.010 +05:30 [INF] Handling state change: WaitingForAI
+2025-09-30 13:23:32.010 +05:30 [INF] Tool outputs: 2
+2025-09-30 13:23:32.012 +05:30 [INF] assistant mode: Normal
+2025-09-30 13:23:32.012 +05:30 [INF] Starting background checkpoint creation for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14...
+2025-09-30 13:23:32.013 +05:30 [INF] Staging workspace for shadow repository: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Checkpoints\cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 13:23:32.014 +05:30 [INF] Started checkpoint creation with placeholder hash: pending-638948354120127191 for message: run--408623e4-5ed7-42e1-8dfc-907c920efed1
+2025-09-30 13:23:32.109 +05:30 [INF] Files staged successfully
+2025-09-30 13:23:33.012 +05:30 [INF] Saving state
+2025-09-30 13:23:33.097 +05:30 [INF] Created checkpoint: 28af6fc0cfa8ececf3ff79b60b72b488e1615138
+2025-09-30 13:23:33.097 +05:30 [INF] Before pending hash. Checkpoint completed for message run--408623e4-5ed7-42e1-8dfc-907c920efed1. Actual hash: 28af6fc0cfa8ececf3ff79b60b72b488e1615138
+2025-09-30 13:23:34.097 +05:30 [INF] Saving state
+2025-09-30 13:23:38.717 +05:30 [INF] Returned to previous state: WaitingForAI -> Initialized (Finished running assistant thread)
+2025-09-30 13:23:38.719 +05:30 [INF] Handling state change: Initialized
+2025-09-30 13:23:39.713 +05:30 [INF] Saving state
+2025-09-30 13:24:31.582 +05:30 [INF] Saving state
+2025-09-30 13:24:39.042 +05:30 [INF] Successfully submitted feedback for run run--9d386e91-b0e8-49f2-981e-33e8ddfa3e7b
+2025-09-30 13:24:39.043 +05:30 [INF] Feedback submitted for message run--9d386e91-b0e8-49f2-981e-33e8ddfa3e7b: score=1
+2025-09-30 15:16:34.235 +05:30 [INF] Initializing Coplay services
+2025-09-30 15:16:34.259 +05:30 [INF] Initializing EditorThreadHelper
+2025-09-30 15:16:34.259 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-09-30 15:19:53.743 +05:30 [INF] Deinitializing Coplay services
+2025-09-30 15:19:53.744 +05:30 [INF] EditorThreadHelper disposed
+2025-09-30 15:20:05.318 +05:30 [INF] Initializing Coplay services
+2025-09-30 15:20:05.342 +05:30 [INF] Initializing EditorThreadHelper
+2025-09-30 15:20:05.342 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-09-30 16:12:59.904 +05:30 [INF] Deinitializing Coplay services
+2025-09-30 16:12:59.915 +05:30 [INF] EditorThreadHelper disposed
+2025-09-30 16:13:05.287 +05:30 [INF] Initializing Coplay services
+2025-09-30 16:13:05.318 +05:30 [INF] Initializing EditorThreadHelper
+2025-09-30 16:13:05.319 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-09-30 16:13:24.937 +05:30 [INF] Deinitializing Coplay services
+2025-09-30 16:13:24.939 +05:30 [INF] EditorThreadHelper disposed
+2025-09-30 16:13:26.891 +05:30 [INF] Initializing Coplay services
+2025-09-30 16:13:26.909 +05:30 [INF] Initializing EditorThreadHelper
+2025-09-30 16:13:26.909 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-09-30 19:42:04.555 +05:30 [INF] Loading state from file, and setting to: Initialized
+2025-09-30 19:42:04.671 +05:30 [INF] No MCP servers configuration found
+2025-09-30 19:42:04.671 +05:30 [INF] MCP host initialized
+2025-09-30 19:42:04.726 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-09-30 19:42:04.727 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-09-30 19:42:04.836 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-09-30 19:42:04.837 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-09-30 19:42:06.593 +05:30 [INF] Placeholder text would be: What can I help with?
+2025-09-30 19:42:06.620 +05:30 [INF] Loading threads state
+2025-09-30 19:42:06.742 +05:30 [INF] Loading thread messages for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-09-30 19:42:06.761 +05:30 [INF] Saving state
+2025-09-30 19:42:07.084 +05:30 [INF] FunctionExecutionController: Loaded thread with 0 function calls from chat history.
+2025-09-30 19:42:07.084 +05:30 [INF] Clearing state model
+2025-09-30 19:42:07.086 +05:30 [WRN] You are setting to the same state: Initialized
+2025-09-30 19:42:07.091 +05:30 [INF] 1 OnThreadChanged
+2025-09-30 19:42:07.094 +05:30 [INF] Handling state change: Initialized
+2025-09-30 19:42:10.269 +05:30 [INF] Successfully refreshed access token
+2025-09-30 19:44:13.650 +05:30 [INF] Cleaned up all thumbnail textures
+2025-09-30 19:44:13.653 +05:30 [INF] AssistantController: Dispose called
+2025-09-30 19:44:13.654 +05:30 [INF] FunctionExecutionController: Dispose called
+2025-09-30 19:44:13.655 +05:30 [INF] Saving state

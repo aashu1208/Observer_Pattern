@@ -23,5 +23,10 @@ public class ManagerTesting : MonoBehaviour
     {
         Debug.Log("Score updated: ");
     }
+
+    public void UpdateHealth()
+    {
+        Debug.Log("Health updated: ");
+    }
     
 }
