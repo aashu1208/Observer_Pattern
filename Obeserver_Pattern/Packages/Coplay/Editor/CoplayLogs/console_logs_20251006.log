@@ -1,0 +1,188 @@
+2025-10-06 12:28:38.523 +05:30 [INF] Initializing Coplay services
+2025-10-06 12:28:38.537 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 12:28:38.537 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 12:28:48.033 +05:30 [INF] Loading state from file, and setting to: Initialized
+2025-10-06 12:28:48.093 +05:30 [INF] No MCP servers configuration found
+2025-10-06 12:28:48.093 +05:30 [INF] MCP host initialized
+2025-10-06 12:28:48.127 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-10-06 12:28:48.130 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-10-06 12:28:48.339 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-10-06 12:28:48.339 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-10-06 12:28:49.546 +05:30 [INF] Placeholder text would be: What can I help with?
+2025-10-06 12:28:49.566 +05:30 [INF] Loading threads state
+2025-10-06 12:28:49.672 +05:30 [INF] Loading thread messages for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-10-06 12:28:49.688 +05:30 [INF] Saving state
+2025-10-06 12:28:50.040 +05:30 [INF] FunctionExecutionController: Loaded thread with 0 function calls from chat history.
+2025-10-06 12:28:50.040 +05:30 [INF] Clearing state model
+2025-10-06 12:28:50.040 +05:30 [WRN] You are setting to the same state: Initialized
+2025-10-06 12:28:50.046 +05:30 [INF] 1 OnThreadChanged
+2025-10-06 12:28:50.048 +05:30 [INF] Handling state change: Initialized
+2025-10-06 12:28:53.056 +05:30 [INF] Successfully refreshed access token
+2025-10-06 12:29:08.341 +05:30 [INF] Clearing All
+2025-10-06 12:29:08.342 +05:30 [INF] Clearing state model
+2025-10-06 12:29:08.342 +05:30 [WRN] You are setting to the same state: Initialized
+2025-10-06 12:29:08.364 +05:30 [INF] Cleaned up all thumbnail textures
+2025-10-06 12:29:08.369 +05:30 [INF] AssistantController: Dispose called
+2025-10-06 12:29:08.371 +05:30 [INF] FunctionExecutionController: Dispose called
+2025-10-06 12:29:08.371 +05:30 [INF] Saving state
+2025-10-06 12:30:29.567 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 12:30:29.569 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 12:30:33.832 +05:30 [INF] Initializing Coplay services
+2025-10-06 12:30:33.858 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 12:30:33.858 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 12:31:22.133 +05:30 [INF] Loading state from file, and setting to: Initialized
+2025-10-06 12:31:22.159 +05:30 [INF] No request found, returning empty.
+2025-10-06 12:31:22.178 +05:30 [INF] No MCP servers configuration found
+2025-10-06 12:31:22.178 +05:30 [INF] MCP host initialized
+2025-10-06 12:31:22.212 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-10-06 12:31:22.213 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-10-06 12:31:22.315 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-10-06 12:31:22.317 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-10-06 12:31:23.558 +05:30 [INF] Placeholder text would be: What can I help with?
+2025-10-06 12:31:23.580 +05:30 [INF] Loading threads state
+2025-10-06 12:31:23.702 +05:30 [INF] Loading thread messages for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-10-06 12:31:23.717 +05:30 [INF] Saving state
+2025-10-06 12:31:23.789 +05:30 [INF] FunctionExecutionController: Loaded thread with 0 function calls from chat history.
+2025-10-06 12:31:23.789 +05:30 [INF] Clearing state model
+2025-10-06 12:31:23.790 +05:30 [WRN] You are setting to the same state: Initialized
+2025-10-06 12:31:23.794 +05:30 [INF] 1 OnThreadChanged
+2025-10-06 12:31:23.794 +05:30 [INF] Handling state change: Initialized
+2025-10-06 12:52:55.557 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 12:52:55.562 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 12:53:03.264 +05:30 [INF] Initializing Coplay services
+2025-10-06 12:53:03.289 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 12:53:03.289 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 12:53:04.550 +05:30 [INF] Loading state from file, and setting to: Initialized
+2025-10-06 12:53:04.573 +05:30 [INF] No request found, returning empty.
+2025-10-06 12:53:04.593 +05:30 [INF] No MCP servers configuration found
+2025-10-06 12:53:04.593 +05:30 [INF] MCP host initialized
+2025-10-06 12:53:04.599 +05:30 [INF] Loaded 1 scroll positions from disk
+2025-10-06 12:53:04.632 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-10-06 12:53:04.633 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-10-06 12:53:04.796 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-10-06 12:53:04.796 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-10-06 12:53:05.865 +05:30 [INF] Placeholder text would be: What can I help with?
+2025-10-06 12:53:05.889 +05:30 [INF] Loading threads state
+2025-10-06 12:53:05.992 +05:30 [INF] Loading thread messages for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-10-06 12:53:06.014 +05:30 [INF] Saving state
+2025-10-06 12:53:06.617 +05:30 [INF] FunctionExecutionController: Loaded thread with 0 function calls from chat history.
+2025-10-06 12:53:06.619 +05:30 [INF] Clearing state model
+2025-10-06 12:53:06.619 +05:30 [WRN] You are setting to the same state: Initialized
+2025-10-06 12:53:06.624 +05:30 [INF] 1 OnThreadChanged
+2025-10-06 12:53:06.625 +05:30 [INF] Handling state change: Initialized
+2025-10-06 13:20:30.383 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 13:20:30.385 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 13:20:36.198 +05:30 [INF] Initializing Coplay services
+2025-10-06 13:20:36.211 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 13:20:36.211 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 13:20:54.959 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 13:20:54.961 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 13:20:59.560 +05:30 [INF] Initializing Coplay services
+2025-10-06 13:20:59.577 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 13:20:59.577 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 13:23:49.718 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 13:23:49.719 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 13:23:53.287 +05:30 [INF] Initializing Coplay services
+2025-10-06 13:23:53.311 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 13:23:53.311 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 13:25:19.645 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 13:25:19.647 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 13:25:22.972 +05:30 [INF] Initializing Coplay services
+2025-10-06 13:25:22.989 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 13:25:22.989 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:07:12.063 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 18:07:12.086 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 18:07:33.709 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:07:33.744 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:07:33.744 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:08:36.081 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 18:08:36.082 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 18:08:39.298 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:08:39.310 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:08:39.310 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:14:03.680 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 18:14:03.681 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 18:14:13.383 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:14:13.396 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:14:13.397 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:14:58.017 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 18:14:58.019 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 18:15:00.974 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:15:00.994 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:15:00.994 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:20:49.993 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 18:20:49.996 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 18:21:01.378 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:21:01.387 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:21:01.387 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:21:56.138 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:21:56.167 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:21:56.167 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:22:33.374 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 18:22:33.375 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 18:22:35.856 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:22:35.871 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:22:35.871 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:30:08.951 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 18:30:08.952 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 18:30:11.701 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:30:11.724 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:30:11.724 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:33:29.283 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 18:33:29.285 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 18:33:32.507 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:33:32.518 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:33:32.518 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:35:21.247 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:35:21.259 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:35:21.259 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:35:51.199 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 18:35:51.202 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 18:35:53.556 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:35:53.569 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:35:53.569 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:39:47.328 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 18:39:47.331 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 18:39:57.717 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:39:57.727 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:39:57.727 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:48:26.537 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 18:48:26.539 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 18:48:40.978 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:48:41.011 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:48:41.011 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:50:13.656 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 18:50:13.657 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 18:50:18.618 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:50:18.642 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:50:18.642 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:56:40.294 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 18:56:40.298 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 18:56:42.903 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:56:42.925 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:56:42.925 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:57:05.015 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 18:57:05.016 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 18:57:07.612 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:57:07.629 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:57:07.629 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:57:31.659 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 18:57:31.662 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 18:57:34.339 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:57:34.355 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:57:34.355 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:57:47.784 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 18:57:47.786 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 18:57:50.485 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:57:50.502 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:57:50.502 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 18:58:56.801 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 18:58:56.803 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 18:58:59.337 +05:30 [INF] Initializing Coplay services
+2025-10-06 18:58:59.358 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 18:58:59.358 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-06 19:00:14.908 +05:30 [INF] Deinitializing Coplay services
+2025-10-06 19:00:14.909 +05:30 [INF] EditorThreadHelper disposed
+2025-10-06 19:00:17.565 +05:30 [INF] Initializing Coplay services
+2025-10-06 19:00:17.586 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-06 19:00:17.586 +05:30 [INF] EditorThreadHelper initialized successfully

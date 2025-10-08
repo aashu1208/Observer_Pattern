@@ -1,0 +1,54 @@
+2025-10-03 14:56:07.134 +05:30 [INF] Initializing Coplay services
+2025-10-03 14:56:07.162 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-03 14:56:07.162 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-03 14:56:15.385 +05:30 [INF] Loading state from file, and setting to: Initialized
+2025-10-03 14:56:15.428 +05:30 [INF] No MCP servers configuration found
+2025-10-03 14:56:15.428 +05:30 [INF] MCP host initialized
+2025-10-03 14:56:15.453 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-10-03 14:56:15.456 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-10-03 14:56:15.600 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-10-03 14:56:15.601 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-10-03 14:56:16.977 +05:30 [WRN] No refresh token found
+2025-10-03 14:56:16.988 +05:30 [WRN] Unauthorized access to subscription endpoint
+2025-10-03 15:01:16.370 +05:30 [WRN] No refresh token found
+2025-10-03 15:01:16.371 +05:30 [WRN] Unauthorized access to subscription endpoint
+2025-10-03 15:06:16.787 +05:30 [WRN] No refresh token found
+2025-10-03 15:06:16.788 +05:30 [WRN] Unauthorized access to subscription endpoint
+2025-10-03 15:11:16.121 +05:30 [WRN] No refresh token found
+2025-10-03 15:11:16.124 +05:30 [WRN] Unauthorized access to subscription endpoint
+2025-10-03 15:16:16.013 +05:30 [WRN] No refresh token found
+2025-10-03 15:16:16.014 +05:30 [WRN] Unauthorized access to subscription endpoint
+2025-10-03 15:21:18.808 +05:30 [WRN] No refresh token found
+2025-10-03 15:21:18.810 +05:30 [WRN] Unauthorized access to subscription endpoint
+2025-10-03 15:26:19.889 +05:30 [WRN] No refresh token found
+2025-10-03 15:26:19.890 +05:30 [WRN] Unauthorized access to subscription endpoint
+2025-10-03 15:31:16.889 +05:30 [WRN] No refresh token found
+2025-10-03 15:31:16.891 +05:30 [WRN] Unauthorized access to subscription endpoint
+2025-10-03 15:36:18.070 +05:30 [WRN] No refresh token found
+2025-10-03 15:36:18.071 +05:30 [WRN] Unauthorized access to subscription endpoint
+2025-10-03 15:41:16.366 +05:30 [WRN] No refresh token found
+2025-10-03 15:41:16.367 +05:30 [WRN] Unauthorized access to subscription endpoint
+2025-10-03 15:46:16.311 +05:30 [WRN] No refresh token found
+2025-10-03 15:46:16.313 +05:30 [WRN] Unauthorized access to subscription endpoint
+2025-10-03 15:51:21.876 +05:30 [WRN] No refresh token found
+2025-10-03 15:51:21.878 +05:30 [WRN] Unauthorized access to subscription endpoint
+2025-10-03 15:56:16.647 +05:30 [WRN] No refresh token found
+2025-10-03 15:56:16.648 +05:30 [WRN] Unauthorized access to subscription endpoint
+2025-10-03 16:01:16.073 +05:30 [WRN] No refresh token found
+2025-10-03 16:01:16.074 +05:30 [WRN] Unauthorized access to subscription endpoint
+2025-10-03 16:06:20.491 +05:30 [WRN] No refresh token found
+2025-10-03 16:06:20.492 +05:30 [WRN] Unauthorized access to subscription endpoint
+2025-10-03 16:07:56.906 +05:30 [INF] Placeholder text would be: What can I help with?
+2025-10-03 16:07:56.942 +05:30 [INF] Loading threads state
+2025-10-03 16:07:56.979 +05:30 [INF] Successfully logged in
+2025-10-03 16:07:59.907 +05:30 [INF] Loading thread messages for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-10-03 16:07:59.921 +05:30 [INF] Saving state
+2025-10-03 16:07:59.958 +05:30 [INF] FunctionExecutionController: Loaded thread with 0 function calls from chat history.
+2025-10-03 16:07:59.958 +05:30 [INF] Clearing state model
+2025-10-03 16:07:59.958 +05:30 [WRN] You are setting to the same state: Initialized
+2025-10-03 16:07:59.961 +05:30 [INF] 1 OnThreadChanged
+2025-10-03 16:07:59.961 +05:30 [INF] Handling state change: Initialized
+2025-10-03 22:07:14.953 +05:30 [INF] Cleaned up all thumbnail textures
+2025-10-03 22:07:14.960 +05:30 [INF] AssistantController: Dispose called
+2025-10-03 22:07:14.961 +05:30 [INF] FunctionExecutionController: Dispose called
+2025-10-03 22:07:14.962 +05:30 [INF] Saving state

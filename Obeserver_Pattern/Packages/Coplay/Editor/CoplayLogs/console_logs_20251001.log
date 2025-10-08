@@ -1,0 +1,54 @@
+2025-10-01 13:09:31.646 +05:30 [INF] Initializing Coplay services
+2025-10-01 13:09:31.662 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-01 13:09:31.662 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-01 13:10:49.113 +05:30 [INF] Loading state from file, and setting to: Initialized
+2025-10-01 13:10:49.169 +05:30 [INF] No MCP servers configuration found
+2025-10-01 13:10:49.169 +05:30 [INF] MCP host initialized
+2025-10-01 13:10:49.197 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-10-01 13:10:49.199 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-10-01 13:10:49.257 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-10-01 13:10:49.257 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-10-01 13:10:50.823 +05:30 [INF] Placeholder text would be: What can I help with?
+2025-10-01 13:10:50.845 +05:30 [INF] Loading threads state
+2025-10-01 13:10:50.941 +05:30 [INF] Loading thread messages for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-10-01 13:10:50.954 +05:30 [INF] Saving state
+2025-10-01 13:10:51.136 +05:30 [INF] FunctionExecutionController: Loaded thread with 0 function calls from chat history.
+2025-10-01 13:10:51.136 +05:30 [INF] Clearing state model
+2025-10-01 13:10:51.136 +05:30 [WRN] You are setting to the same state: Initialized
+2025-10-01 13:10:51.142 +05:30 [INF] 1 OnThreadChanged
+2025-10-01 13:10:51.143 +05:30 [INF] Handling state change: Initialized
+2025-10-01 13:10:52.396 +05:30 [INF] Successfully refreshed access token
+2025-10-01 15:24:03.681 +05:30 [INF] Initializing Coplay services
+2025-10-01 15:24:03.707 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-01 15:24:03.707 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-01 15:24:15.188 +05:30 [INF] Loading state from file, and setting to: Initialized
+2025-10-01 15:24:15.286 +05:30 [INF] No MCP servers configuration found
+2025-10-01 15:24:15.287 +05:30 [INF] MCP host initialized
+2025-10-01 15:24:15.338 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-10-01 15:24:15.340 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-10-01 15:24:15.640 +05:30 [INF] Checking for dependencies in: D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries
+2025-10-01 15:24:15.640 +05:30 [INF] Executable at D:\Observer Pattern\Observer_Pattern\Obeserver_Pattern\Packages\Coplay\Editor\Binaries\ripgrep\x86_64\rg.exe exists: True
+2025-10-01 15:24:17.536 +05:30 [INF] Placeholder text would be: What can I help with?
+2025-10-01 15:24:17.590 +05:30 [INF] Loading threads state
+2025-10-01 15:24:17.730 +05:30 [INF] Loading thread messages for thread cpl_thread_656dde5e_bf60_409a_8076_faa198ad9f14
+2025-10-01 15:24:17.755 +05:30 [INF] Saving state
+2025-10-01 15:24:18.089 +05:30 [INF] FunctionExecutionController: Loaded thread with 0 function calls from chat history.
+2025-10-01 15:24:18.089 +05:30 [INF] Clearing state model
+2025-10-01 15:24:18.089 +05:30 [WRN] You are setting to the same state: Initialized
+2025-10-01 15:24:18.095 +05:30 [INF] 1 OnThreadChanged
+2025-10-01 15:24:18.096 +05:30 [INF] Handling state change: Initialized
+2025-10-01 15:24:22.328 +05:30 [ERR] CoplayError - Failed to refresh access token
+2025-10-01 15:24:22.393 +05:30 [WRN] Unauthorized access to subscription endpoint
+2025-10-01 15:24:23.022 +05:30 [ERR] CoplayError - Failed to get credit balance
+System.Net.Http.HttpRequestException: 401 (Unauthorized)
+  at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode () [0x0002a] in <5642d1aeff0c4c08b86f5b924fdd0091>:0 
+  at Coplay.Common.CoplayApi.CoplayApiClient.GetCreditBalanceAsync (System.Threading.CancellationToken cancellationToken) [0x000e6] in <1975658d3c7746a2a72b30cc5a3e453f>:0 
+System.Net.Http.HttpRequestException: 401 (Unauthorized)
+  at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode () [0x0002a] in <5642d1aeff0c4c08b86f5b924fdd0091>:0 
+  at Coplay.Common.CoplayApi.CoplayApiClient.GetCreditBalanceAsync (System.Threading.CancellationToken cancellationToken) [0x000e6] in <1975658d3c7746a2a72b30cc5a3e453f>:0 
+2025-10-01 15:24:23.436 +05:30 [ERR] Unhandled error in HandleThreadLoaded
+System.Net.Http.HttpRequestException: 401 (Unauthorized)
+  at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode () [0x0002a] in <5642d1aeff0c4c08b86f5b924fdd0091>:0 
+  at Coplay.Common.CoplayApi.CoplayApiClient.GetStreamedMessage (System.String threadId, System.Int32 lastUpdateId, System.Threading.CancellationToken cancellationToken) [0x000ac] in <1975658d3c7746a2a72b30cc5a3e453f>:0 
+  at Coplay.Controllers.Assistants.AssistantController.HandleStreamedResponse (Coplay.Models.Assistants.PromptResponse prevResponse, System.String threadId, System.Int32 lastUpdateId, System.Threading.CancellationToken cancellationToken) [0x0008b] in <1975658d3c7746a2a72b30cc5a3e453f>:0 
+  at Coplay.Controllers.Assistants.AssistantController.<HandleThreadLoaded>b__32_0 (System.Threading.CancellationToken token) [0x0008c] in <1975658d3c7746a2a72b30cc5a3e453f>:0 

@@ -5,16 +5,29 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PhysicsCompoPrac.unity
     guid: 7b8badea6f4860f4591b213e60f45200
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Action_Delegates.unity
     guid: 92a8d3620efe11a40929dc6085be5d81
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Leetcode.unity
     guid: 1b9515f8ffe42884b8d7c8cd4779853f
-  m_configObjects: {}
+  - enabled: 0
+    path: Assets/Samples/Meta XR Core SDK/78.0.0/Sample Scenes/ControllerDrivenHandPoses.unity
+    guid: 7ea9f7c90c2fa404d86276a633b59903
+  - enabled: 0
+    path: Assets/Samples/Meta XR Core SDK/78.0.0/Sample Scenes/SimultaneousHandsAndControllers.unity
+    guid: 52478c233ce9df34087cc379c060a2d3
+  - enabled: 1
+    path: Assets/Scenes/Test_UI_Interactions.unity
+    guid: f7c5feb96a262014db70945591b06c8b
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a67420ec36537174f857abde212fbed0, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 2a2ff6b5dd69fec4b8ea30b3307c8a5c, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5ee08469541e0a546b8c835e1e04f57b, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a20df90d11ffa294888f825e6f499bd3, type: 2}

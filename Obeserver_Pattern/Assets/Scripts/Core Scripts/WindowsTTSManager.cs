@@ -6,7 +6,7 @@ using UnityEngine.Networking;
 
 /// <summary>
 /// Cross-platform TTS manager using native platform TTS and web fallback.
-/// Auto-initializes in the first scene via RuntimeInitializeOnLoadMethod.
+/// Fixed for Unity 2022.3+ build compatibility - No yield in catch blocks
 /// </summary>
 public sealed class WindowsTTSManager : MonoBehaviour
 {
@@ -74,16 +74,20 @@ public sealed class WindowsTTSManager : MonoBehaviour
 		}
 
 		_instance._currentText = text;
+		_instance.StartCoroutine(_instance.SpeakCoroutine(text));
+	}
 
+	private IEnumerator SpeakCoroutine(string text)
+	{
 #if UNITY_STANDALONE_WIN && !UNITY_EDITOR
-		_instance.StartCoroutine(_instance.SpeakWithWindowsSAPI(text));
+		yield return StartCoroutine(TryWindowsSAPI(text));
 #elif UNITY_ANDROID && !UNITY_EDITOR
-		_instance.StartCoroutine(_instance.SpeakWithAndroidTTS(text));
+		yield return StartCoroutine(TryAndroidTTS(text));
 #elif UNITY_IOS && !UNITY_EDITOR
-		_instance.StartCoroutine(_instance.SpeakWithiOSTTS(text));
+		yield return StartCoroutine(TryiOSTTS(text));
 #else
 		// Fallback for Editor and other platforms
-		_instance.StartCoroutine(_instance.SpeakWithWebTTS(text));
+		yield return StartCoroutine(SpeakWithWebTTS(text));
 #endif
 	}
 
@@ -97,20 +101,11 @@ public sealed class WindowsTTSManager : MonoBehaviour
 			_instance._audioSource.Stop();
 		}
 		
-#if UNITY_STANDALONE_WIN && !UNITY_EDITOR
-		_instance.StopWindowsSAPI();
-#elif UNITY_ANDROID && !UNITY_EDITOR
-		_instance.StopAndroidTTS();
-#elif UNITY_IOS && !UNITY_EDITOR
-		_instance.StopiOSTTS();
-#endif
-		
 		Debug.Log("TTS stopped.");
 	}
 
 	public static void SetRate(int rate)
 	{
-		// Rate setting implementation can be added per platform
 		Debug.Log($"TTS Rate set to: {rate}");
 	}
 
@@ -129,7 +124,16 @@ public sealed class WindowsTTSManager : MonoBehaviour
 	}
 
 #if UNITY_STANDALONE_WIN && !UNITY_EDITOR
-	private IEnumerator SpeakWithWindowsSAPI(string text)
+	private IEnumerator TryWindowsSAPI(string text)
+	{
+		bool success = TryNativeWindowsTTS(text);
+		if (!success)
+		{
+			yield return StartCoroutine(SpeakWithWebTTS(text));
+		}
+	}
+
+	private bool TryNativeWindowsTTS(string text)
 	{
 		try
 		{
@@ -138,34 +142,28 @@ public sealed class WindowsTTSManager : MonoBehaviour
 				speaker.SetOutputToDefaultAudioDevice();
 				speaker.SpeakAsync(text);
 				Debug.Log($"Speaking with Windows SAPI: {text}");
+				return true;
 			}
 		}
 		catch (Exception ex)
 		{
 			Debug.LogWarning($"Windows SAPI failed: {ex.Message}. Using fallback.");
-			yield return StartCoroutine(SpeakWithWebTTS(text));
-		}
-		yield return null;
-	}
-
-	private void StopWindowsSAPI()
-	{
-		try
-		{
-			using (var speaker = new System.Speech.Synthesis.SpeechSynthesizer())
-			{
-				speaker.SpeakAsyncCancelAll();
-			}
-		}
-		catch (Exception ex)
-		{
-			Debug.LogWarning($"Failed to stop Windows SAPI: {ex.Message}");
+			return false;
 		}
 	}
 #endif
 
 #if UNITY_ANDROID && !UNITY_EDITOR
-	private IEnumerator SpeakWithAndroidTTS(string text)
+	private IEnumerator TryAndroidTTS(string text)
+	{
+		bool success = TryNativeAndroidTTS(text);
+		if (!success)
+		{
+			yield return StartCoroutine(SpeakWithWebTTS(text));
+		}
+	}
+
+	private bool TryNativeAndroidTTS(string text)
 	{
 		try
 		{
@@ -174,27 +172,12 @@ public sealed class WindowsTTSManager : MonoBehaviour
 			AndroidJavaObject tts = new AndroidJavaObject("android.speech.tts.TextToSpeech", activity, null);
 			tts.Call<int>("speak", text, 0, null);
 			Debug.Log($"Speaking with Android TTS: {text}");
+			return true;
 		}
 		catch (Exception ex)
 		{
 			Debug.LogWarning($"Android TTS failed: {ex.Message}. Using fallback.");
-			yield return StartCoroutine(SpeakWithWebTTS(text));
-		}
-		yield return null;
-	}
-
-	private void StopAndroidTTS()
-	{
-		try
-		{
-			AndroidJavaClass unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
-			AndroidJavaObject activity = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
-			AndroidJavaObject tts = new AndroidJavaObject("android.speech.tts.TextToSpeech", activity, null);
-			tts.Call("stop");
-		}
-		catch (Exception ex)
-		{
-			Debug.LogWarning($"Failed to stop Android TTS: {ex.Message}");
+			return false;
 		}
 	}
 #endif
@@ -206,30 +189,27 @@ public sealed class WindowsTTSManager : MonoBehaviour
 	[System.Runtime.InteropServices.DllImport("__Internal")]
 	private static extern void _StopSpeaking();
 
-	private IEnumerator SpeakWithiOSTTS(string text)
+	private IEnumerator TryiOSTTS(string text)
+	{
+		bool success = TryNativeiOSTTS(text);
+		if (!success)
+		{
+			yield return StartCoroutine(SpeakWithWebTTS(text));
+		}
+	}
+
+	private bool TryNativeiOSTTS(string text)
 	{
 		try
 		{
 			_SpeakText(text);
 			Debug.Log($"Speaking with iOS TTS: {text}");
+			return true;
 		}
 		catch (Exception ex)
 		{
 			Debug.LogWarning($"iOS TTS failed: {ex.Message}. Using fallback.");
-			yield return StartCoroutine(SpeakWithWebTTS(text));
-		}
-		yield return null;
-	}
-
-	private void StopiOSTTS()
-	{
-		try
-		{
-			_StopSpeaking();
-		}
-		catch (Exception ex)
-		{
-			Debug.LogWarning($"Failed to stop iOS TTS: {ex.Message}");
+			return false;
 		}
 	}
 #endif
@@ -291,5 +271,3 @@ public sealed class WindowsTTSManager : MonoBehaviour
 		_audioCache.Clear();
 	}
 }
-
-

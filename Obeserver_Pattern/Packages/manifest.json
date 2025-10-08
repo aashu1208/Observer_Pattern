@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "com.coplaydev.coplay": "https://github.com/CoplayDev/coplay-unity-plugin.git",
+    "com.meta.xr.sdk.core": "78.0.0",
+    "com.meta.xr.sdk.interaction": "78.0.0",
     "com.unity.collab-proxy": "2.7.1",
     "com.unity.feature.development": "1.0.1",
     "com.unity.nuget.mono-cecil": "1.10.2",
@@ -8,6 +10,8 @@
     "com.unity.timeline": "1.7.6",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.9.4",
+    "com.unity.xr.management": "4.5.2",
+    "com.unity.xr.oculus": "4.3.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
