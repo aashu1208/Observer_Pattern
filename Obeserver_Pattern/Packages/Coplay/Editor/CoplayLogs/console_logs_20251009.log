@@ -1,0 +1,8 @@
+2025-10-09 12:47:22.144 +05:30 [INF] Initializing Coplay services
+2025-10-09 12:47:22.157 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-09 12:47:22.157 +05:30 [INF] EditorThreadHelper initialized successfully
+2025-10-09 12:48:36.644 +05:30 [INF] Deinitializing Coplay services
+2025-10-09 12:48:36.647 +05:30 [INF] EditorThreadHelper disposed
+2025-10-09 12:48:39.861 +05:30 [INF] Initializing Coplay services
+2025-10-09 12:48:39.893 +05:30 [INF] Initializing EditorThreadHelper
+2025-10-09 12:48:39.893 +05:30 [INF] EditorThreadHelper initialized successfully
